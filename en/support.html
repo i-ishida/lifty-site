@@ -36,28 +36,242 @@
 
     <h2>Frequently Asked Questions</h2>
 
-    <p><strong>Q. Do I need to sign in to use the app?</strong><br />
-    A. No, signing in is optional. You can tap "Get Started" and use all the core features — logging, progress charts, the training calendar, and more — without creating an account.</p>
+    <div class="faq" id="faq">
+      <h3 class="faq-category">Getting Started</h3>
+      <details class="faq-item">
+        <summary>Do I need to create an account?</summary>
+        <div class="faq-answer">
+          <p>No. You can start logging workouts right after installing LiFTY.</p>
+          <p>Your records are saved on your device, and you can keep using the app without ever logging in.</p>
+          <p>Logging in is optional — it's only needed if you want cloud backup and restore-on-device-change, which are premium plan features.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary>Where is my workout data stored?</summary>
+        <div class="faq-answer">
+          <p>Your workout data is stored on your device by default (the local database is encrypted).</p>
+          <p>Only when you're logged in with a premium plan is it also synced to the cloud in the background.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary>I use multiple gyms — can I keep weight records separate for each?</summary>
+        <div class="faq-answer">
+          <p>Yes. By registering the same exercise separately for each gym, you can keep weight records distinct per location.</p>
+          <p>The free plan allows up to 2 registered locations.</p>
+        </div>
+      </details>
+      <h3 class="faq-category">Logging Workouts</h3>
+      <details class="faq-item">
+        <summary>How do I start logging a workout?</summary>
+        <div class="faq-answer">
+          <p>Tap "+ Start Workout" on the Home screen, then choose today's location and a menu (workout plan) to begin.</p>
+          <p>You can also choose "Log freely" to start without selecting a menu.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary>Can I add a record for a past date?</summary>
+        <div class="faq-answer">
+          <p>Yes. From the Calendar or the Past Records screen, use "Add a record for this day" to log a workout for a past date.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary>What happens if I forget to finish a workout?</summary>
+        <div class="faq-answer">
+          <p>A workout stays "in progress" until you tap "Finish Workout" — it won't disappear even if the date changes overnight, and you can pick up where you left off.</p>
+          <p>If you'd rather discard it, use "Cancel this record" on the recording screen.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary>Can I log a deliberate rest day?</summary>
+        <div class="faq-answer">
+          <p>Yes. Tap "Rest today" on the Home screen to log a deliberate rest day (you can add a note too).</p>
+          <p>Rest days show up in the Calendar in their own color.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary>Can I track weight separately for left and right sides?</summary>
+        <div class="faq-answer">
+          <p>Yes. When registering an exercise, turn on "Track left/right separately" to log sets independently for each side.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary>What does the "W" marker mean in my set records?</summary>
+        <div class="faq-answer">
+          <p>"W" marks a set as a warm-up.</p>
+          <p>Turning it on in the set logging screen or when setting menu targets flags that set as a warm-up, excluding it from target-achievement checks and automatic target update suggestions.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary>Can I log warm-up sets?</summary>
+        <div class="faq-answer">
+          <p>Yes. On the set logging screen, tap the "W" button to mark a set as a warm-up — warm-up sets are excluded from target-achievement checks.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary>What is RPE?</summary>
+        <div class="faq-answer">
+          <p>RPE (Rate of Perceived Exertion) is a self-reported measure of how hard a set felt.</p>
+          <p>You can pick from 7, 8, 9, 9.5, or 10 with one tap on the set logging screen, giving you a sense of intensity when reviewing past records later.</p>
+          <p>Here's a general guide to each value, based on how many more reps you feel you could do:<br />・7: You could do about 3 more reps<br />・8: You could do about 2 more reps<br />・9: You could do 1 more rep<br />・9.5: You might be able to do 1 more rep, but you're not sure<br />・10: You couldn't do another rep — full effort</p>
+          <p>It's optional and isn't used for target-achievement checks like weight or reps.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary>Can I log cardio exercise?</summary>
+        <div class="faq-answer">
+          <p>Yes. Choose "Cardio" as the exercise type when registering an exercise to log duration, distance, calories burned, and average heart rate.</p>
+        </div>
+      </details>
+      <h3 class="faq-category">Menus &amp; Targets</h3>
+      <details class="faq-item">
+        <summary>Is there a limit on how many menus I can create?</summary>
+        <div class="faq-answer">
+          <p>The free plan allows up to 5 menus (including archived ones). A premium plan is required for a 6th menu or more.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary>Can I save what I did as a reusable menu?</summary>
+        <div class="faq-answer">
+          <p>Yes. You can save what you did in a free-form session — or any past record — as a new menu, straight from the completion screen or the Past Records screen.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary>Are my weight/rep targets updated automatically?</summary>
+        <div class="faq-answer">
+          <p>When you finish a workout, if you hit your target reps on every set of an exercise, LiFTY will suggest raising your target for next time (you can turn this off in Settings).</p>
+          <p>Weight isn't used to decide whether to suggest an update (since it's a personal choice). The default suggestion is to increase reps, but you can switch to "Increase weight" instead right there.</p>
+          <p>If you choose "Increase weight", LiFTY estimates your 1RM from that set's results using the Epley formula (weight × (1 + reps ÷ 30)) and automatically calculates the reps that match your new weight.</p>
+        </div>
+      </details>
+      <h3 class="faq-category">Goals</h3>
+      <details class="faq-item">
+        <summary>How do I set a goal?</summary>
+        <div class="faq-answer">
+          <p>Open the goal list from the icon at the top of the Home screen, then tap "+ Add Goal."</p>
+          <p>You can choose from body stats (like weight), set count (by body part or exercise), volume (by exercise), session count, or records (estimated 1RM, actual 1RM, or weight × reps), then set a target value along with a period (this week / this month / a custom range) or a deadline. You can have as many goals active at once as you like.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary>Where can I check my goal progress?</summary>
+        <div class="faq-answer">
+          <p>Check the goal card that appears below "Completed Sessions" on the Home screen. Tap any row in the card to open that goal's detail screen.</p>
+          <p>You can show or hide the goal card itself from Settings &gt; "Home Screen Cards," and show or hide individual goals from the switch on each row in the goal list.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary>What happens when a goal reaches its deadline?</summary>
+        <div class="faq-answer">
+          <p>When a goal reaches its deadline (or the end of its tracking period), it's automatically marked "achieved" or "not achieved" based on the value at that time, and you can check the result in the goal list or detail screen. Weekly/monthly goals automatically continue into the next period.</p>
+          <p>Turn on "Notify me of goal results" in Settings &gt; Notifications to get notified when a result comes in (off by default).</p>
+        </div>
+      </details>
+      <h3 class="faq-category">Locations &amp; Exercises</h3>
+      <details class="faq-item">
+        <summary>Is there a limit on how many exercises I can register?</summary>
+        <div class="faq-answer">
+          <p>There's no limit — you can register as many exercises as you like, even on the free plan.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary>I accidentally deleted an exercise. Can I restore it?</summary>
+        <div class="faq-answer">
+          <p>Deleting moves an item to the archive rather than erasing it, so your records stay intact. You can restore it from Settings &gt; Data Management &gt; Archive.</p>
+          <p>Note that items never used in any record are permanently deleted instead.</p>
+        </div>
+      </details>
+      <h3 class="faq-category">Premium Plan</h3>
+      <details class="faq-item">
+        <summary>What's the difference between the free and premium plans?</summary>
+        <div class="faq-answer">
+          <p>Premium adds cloud sync &amp; backup, unlimited locations, unlimited menus, an ad-free experience, extra color themes, full access to the Analysis tab, and CSV data export.</p>
+          <p>Core features — logging, progress graphs, and the calendar — stay free.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary>Will I lose my records if I cancel the premium plan?</summary>
+        <div class="faq-answer">
+          <p>No, your records stay intact.</p>
+          <p>If your locations or menus exceed the free plan's limit after cancelling, the most recently added ones are archived (not deleted) — your workout history is preserved.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary>What should I do when switching to a new device?</summary>
+        <div class="faq-answer">
+          <p>If you're logged in with a premium plan, your records can be restored on a new device from the cloud backup.</p>
+          <p>If you're using LiFTY without logging in, note that your records are stored only on your device and won't carry over automatically.</p>
+        </div>
+      </details>
+      <h3 class="faq-category">Analysis</h3>
+      <details class="faq-item">
+        <summary>What can I do in the Analysis tab?</summary>
+        <div class="faq-answer">
+          <p>The Analysis tab lets you chart trends like estimated 1RM, volume, and set count per exercise.</p>
+          <p>Viewing one metric at a time over the last 3 months is free; overlaying two metrics or viewing 6 months or more requires a premium plan.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary>I heard I can unlock Analysis features by watching an ad.</summary>
+        <div class="faq-answer">
+          <p>Yes. You can unlock the full Analysis tab for 24 hours by watching a single ad (available once every 30 days).</p>
+        </div>
+      </details>
+      <h3 class="faq-category">Health Sync</h3>
+      <details class="faq-item">
+        <summary>Can I sync with Apple Health?</summary>
+        <div class="faq-answer">
+          <p>Yes. From Settings &gt; Health Sync, you can sync weight, body fat percentage, height, and cardio workouts both ways with Apple Health (Health Connect on Android).</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary>Will past data be imported when I turn on Health Sync?</summary>
+        <div class="faq-answer">
+          <p>Yes — the first time you turn it on, LiFTY imports your entire history.</p>
+          <p>After that, only new data is synced each time you open the app.</p>
+        </div>
+      </details>
+      <h3 class="faq-category">Data Management</h3>
+      <details class="faq-item">
+        <summary>Can I export my records?</summary>
+        <div class="faq-answer">
+          <p>Yes, with a premium plan you can export your data as CSV files — training records and body stats can each be exported separately.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary>What happens if I delete my account?</summary>
+        <div class="faq-answer">
+          <p>Your cloud data will be deleted, but your local records on the device remain and you can keep using LiFTY anonymously.</p>
+          <p>Deleting your account does not cancel a premium subscription — you'll need to cancel it separately from your App Store or Google Play subscription settings.</p>
+        </div>
+      </details>
+      <h3 class="faq-category">Notifications &amp; Language</h3>
+      <details class="faq-item">
+        <summary>Can I get a reminder so I don't forget to log a workout?</summary>
+        <div class="faq-answer">
+          <p>Yes. Turn on reminders in Settings &gt; Notifications and choose a time to be notified if you haven't logged a workout that day (off by default).</p>
+          <p>You won't be notified on days you've already logged a workout or declared a rest day.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary>Can I switch the display language to English?</summary>
+        <div class="faq-answer">
+          <p>Yes. Go to Settings &gt; Language to switch between Japanese and English within the app, independent of your device's system language.</p>
+        </div>
+      </details>
+    </div>
 
-    <p><strong>Q. Where is my recorded data stored?</strong><br />
-    A. By default, it's stored only on your device. Once you sign in and subscribe to the paid plan, cloud backup and restoration when switching devices become available.</p>
-
-    <p><strong>Q. How do I cancel my paid plan?</strong><br />
-    A. Please cancel through the subscription management screen of the store you used (App Store or Google Play). There is no cancellation option within the app itself.</p>
-
-    <p><strong>Q. What happens if I delete my account?</strong><br />
-    A. Your data in the cloud is deleted, but local records on your device are not deleted, and you can continue using the app anonymously. Note that deleting your account alone does not cancel a paid plan subscription — if you need to cancel, please do so separately through the relevant store's subscription management.</p>
-
-    <p><strong>Q. I found a bug. Where should I report it?</strong><br />
-    A. Please contact us at the address above. Including details such as the steps to reproduce, device type, and OS version helps us resolve it faster.</p>
+    <p>If you find a bug or have a question, please contact us at the address above. Including details such as the steps to reproduce, device type, and OS version helps us resolve it faster.</p>
 
     <h2>Supported Environments</h2>
-    <p>LiFTY supports iOS 17 and later. An Android version is currently in preparation.</p>
+    <p>LiFTY supports iOS 18 and later. An Android version is currently in preparation.</p>
 
     <h2>Terms of Service &amp; Privacy Policy</h2>
     <p>Please also review our <a href="terms.html">Terms of Service</a> and <a href="privacy.html">Privacy Policy</a>.</p>
   </div>
 </main>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do I need to create an account?", "acceptedAnswer": {"@type": "Answer", "text": "No. You can start logging workouts right after installing LiFTY. Your records are saved on your device, and you can keep using the app without ever logging in. Logging in is optional — it's only needed if you want cloud backup and restore-on-device-change, which are premium plan features."}}, {"@type": "Question", "name": "Where is my workout data stored?", "acceptedAnswer": {"@type": "Answer", "text": "Your workout data is stored on your device by default (the local database is encrypted). Only when you're logged in with a premium plan is it also synced to the cloud in the background."}}, {"@type": "Question", "name": "I use multiple gyms — can I keep weight records separate for each?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. By registering the same exercise separately for each gym, you can keep weight records distinct per location. The free plan allows up to 2 registered locations."}}, {"@type": "Question", "name": "How do I start logging a workout?", "acceptedAnswer": {"@type": "Answer", "text": "Tap \"+ Start Workout\" on the Home screen, then choose today's location and a menu (workout plan) to begin. You can also choose \"Log freely\" to start without selecting a menu."}}, {"@type": "Question", "name": "Can I add a record for a past date?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. From the Calendar or the Past Records screen, use \"Add a record for this day\" to log a workout for a past date."}}, {"@type": "Question", "name": "What happens if I forget to finish a workout?", "acceptedAnswer": {"@type": "Answer", "text": "A workout stays \"in progress\" until you tap \"Finish Workout\" — it won't disappear even if the date changes overnight, and you can pick up where you left off. If you'd rather discard it, use \"Cancel this record\" on the recording screen."}}, {"@type": "Question", "name": "Can I log a deliberate rest day?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Tap \"Rest today\" on the Home screen to log a deliberate rest day (you can add a note too). Rest days show up in the Calendar in their own color."}}, {"@type": "Question", "name": "Can I track weight separately for left and right sides?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. When registering an exercise, turn on \"Track left/right separately\" to log sets independently for each side."}}, {"@type": "Question", "name": "What does the \"W\" marker mean in my set records?", "acceptedAnswer": {"@type": "Answer", "text": "\"W\" marks a set as a warm-up. Turning it on in the set logging screen or when setting menu targets flags that set as a warm-up, excluding it from target-achievement checks and automatic target update suggestions."}}, {"@type": "Question", "name": "Can I log warm-up sets?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. On the set logging screen, tap the \"W\" button to mark a set as a warm-up — warm-up sets are excluded from target-achievement checks."}}, {"@type": "Question", "name": "What is RPE?", "acceptedAnswer": {"@type": "Answer", "text": "RPE (Rate of Perceived Exertion) is a self-reported measure of how hard a set felt. You can pick from 7, 8, 9, 9.5, or 10 with one tap on the set logging screen, giving you a sense of intensity when reviewing past records later. Here's a general guide to each value, based on how many more reps you feel you could do: ・7: You could do about 3 more reps ・8: You could do about 2 more reps ・9: You could do 1 more rep ・9.5: You might be able to do 1 more rep, but you're not sure ・10: You couldn't do another rep — full effort It's optional and isn't used for target-achievement checks like weight or reps."}}, {"@type": "Question", "name": "Can I log cardio exercise?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Choose \"Cardio\" as the exercise type when registering an exercise to log duration, distance, calories burned, and average heart rate."}}, {"@type": "Question", "name": "Is there a limit on how many menus I can create?", "acceptedAnswer": {"@type": "Answer", "text": "The free plan allows up to 5 menus (including archived ones). A premium plan is required for a 6th menu or more."}}, {"@type": "Question", "name": "Can I save what I did as a reusable menu?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. You can save what you did in a free-form session — or any past record — as a new menu, straight from the completion screen or the Past Records screen."}}, {"@type": "Question", "name": "Are my weight/rep targets updated automatically?", "acceptedAnswer": {"@type": "Answer", "text": "When you finish a workout, if you hit your target reps on every set of an exercise, LiFTY will suggest raising your target for next time (you can turn this off in Settings). Weight isn't used to decide whether to suggest an update (since it's a personal choice). The default suggestion is to increase reps, but you can switch to \"Increase weight\" instead right there. If you choose \"Increase weight\", LiFTY estimates your 1RM from that set's results using the Epley formula (weight × (1 + reps ÷ 30)) and automatically calculates the reps that match your new weight."}}, {"@type": "Question", "name": "How do I set a goal?", "acceptedAnswer": {"@type": "Answer", "text": "Open the goal list from the icon at the top of the Home screen, then tap \"+ Add Goal.\" You can choose from body stats (like weight), set count (by body part or exercise), volume (by exercise), session count, or records (estimated 1RM, actual 1RM, or weight × reps), then set a target value along with a period (this week / this month / a custom range) or a deadline. You can have as many goals active at once as you like."}}, {"@type": "Question", "name": "Where can I check my goal progress?", "acceptedAnswer": {"@type": "Answer", "text": "Check the goal card that appears below \"Completed Sessions\" on the Home screen. Tap any row in the card to open that goal's detail screen. You can show or hide the goal card itself from Settings > \"Home Screen Cards,\" and show or hide individual goals from the switch on each row in the goal list."}}, {"@type": "Question", "name": "What happens when a goal reaches its deadline?", "acceptedAnswer": {"@type": "Answer", "text": "When a goal reaches its deadline (or the end of its tracking period), it's automatically marked \"achieved\" or \"not achieved\" based on the value at that time, and you can check the result in the goal list or detail screen. Weekly/monthly goals automatically continue into the next period. Turn on \"Notify me of goal results\" in Settings > Notifications to get notified when a result comes in (off by default)."}}, {"@type": "Question", "name": "Is there a limit on how many exercises I can register?", "acceptedAnswer": {"@type": "Answer", "text": "There's no limit — you can register as many exercises as you like, even on the free plan."}}, {"@type": "Question", "name": "I accidentally deleted an exercise. Can I restore it?", "acceptedAnswer": {"@type": "Answer", "text": "Deleting moves an item to the archive rather than erasing it, so your records stay intact. You can restore it from Settings > Data Management > Archive. Note that items never used in any record are permanently deleted instead."}}, {"@type": "Question", "name": "What's the difference between the free and premium plans?", "acceptedAnswer": {"@type": "Answer", "text": "Premium adds cloud sync & backup, unlimited locations, unlimited menus, an ad-free experience, extra color themes, full access to the Analysis tab, and CSV data export. Core features — logging, progress graphs, and the calendar — stay free."}}, {"@type": "Question", "name": "Will I lose my records if I cancel the premium plan?", "acceptedAnswer": {"@type": "Answer", "text": "No, your records stay intact. If your locations or menus exceed the free plan's limit after cancelling, the most recently added ones are archived (not deleted) — your workout history is preserved."}}, {"@type": "Question", "name": "What should I do when switching to a new device?", "acceptedAnswer": {"@type": "Answer", "text": "If you're logged in with a premium plan, your records can be restored on a new device from the cloud backup. If you're using LiFTY without logging in, note that your records are stored only on your device and won't carry over automatically."}}, {"@type": "Question", "name": "What can I do in the Analysis tab?", "acceptedAnswer": {"@type": "Answer", "text": "The Analysis tab lets you chart trends like estimated 1RM, volume, and set count per exercise. Viewing one metric at a time over the last 3 months is free; overlaying two metrics or viewing 6 months or more requires a premium plan."}}, {"@type": "Question", "name": "I heard I can unlock Analysis features by watching an ad.", "acceptedAnswer": {"@type": "Answer", "text": "Yes. You can unlock the full Analysis tab for 24 hours by watching a single ad (available once every 30 days)."}}, {"@type": "Question", "name": "Can I sync with Apple Health?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. From Settings > Health Sync, you can sync weight, body fat percentage, height, and cardio workouts both ways with Apple Health (Health Connect on Android)."}}, {"@type": "Question", "name": "Will past data be imported when I turn on Health Sync?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — the first time you turn it on, LiFTY imports your entire history. After that, only new data is synced each time you open the app."}}, {"@type": "Question", "name": "Can I export my records?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, with a premium plan you can export your data as CSV files — training records and body stats can each be exported separately."}}, {"@type": "Question", "name": "What happens if I delete my account?", "acceptedAnswer": {"@type": "Answer", "text": "Your cloud data will be deleted, but your local records on the device remain and you can keep using LiFTY anonymously. Deleting your account does not cancel a premium subscription — you'll need to cancel it separately from your App Store or Google Play subscription settings."}}, {"@type": "Question", "name": "Can I get a reminder so I don't forget to log a workout?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Turn on reminders in Settings > Notifications and choose a time to be notified if you haven't logged a workout that day (off by default). You won't be notified on days you've already logged a workout or declared a rest day."}}, {"@type": "Question", "name": "Can I switch the display language to English?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Go to Settings > Language to switch between Japanese and English within the app, independent of your device's system language."}}]}
+</script>
 
 <footer class="site-footer">
   <div class="container" style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px; width:100%;">

@@ -429,3 +429,111 @@ h1 .accent-word {
 .doc-body h2:first-child {
   margin-top: 0;
 }
+
+/* よくある質問（アコーディオン） */
+
+.faq {
+  margin: 8px 0 32px;
+}
+
+.faq-category {
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  margin: 32px 0 12px;
+}
+
+.faq-category:first-child {
+  margin-top: 0;
+}
+
+.faq-item {
+  background: var(--surface2);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 4px 18px;
+  margin-bottom: 10px;
+}
+
+.faq-item summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 16px 26px 16px 0;
+  font-size: 15.5px;
+  font-weight: 700;
+  color: var(--ink);
+  position: relative;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary::after {
+  content: "+";
+  position: absolute;
+  right: 0;
+  top: 14px;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--ink-faint);
+}
+
+.faq-item[open] summary::after {
+  content: "\2212";
+}
+
+.faq-answer {
+  padding: 0 0 18px;
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--ink-soft);
+}
+
+.faq-answer p {
+  margin: 0 0 10px;
+}
+
+.faq-answer p:last-child {
+  margin-bottom: 0;
+}
+
+/* ランディングページのFAQティーザー（抜粋＋全件へのリンク） */
+
+.faq-teaser {
+  padding: 8px 0 64px;
+}
+
+.faq-teaser-head {
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.faq-teaser-head h2 {
+  font-size: 28px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.faq-teaser .faq {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.faq-teaser-more {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.faq-teaser-more a {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.faq-teaser-more a:hover {
+  text-decoration: underline;
+}
