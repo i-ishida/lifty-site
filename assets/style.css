@@ -430,6 +430,119 @@ h1 .accent-word {
   margin-top: 0;
 }
 
+/* ブログ */
+
+.blog-header {
+  padding: 40px 0 8px;
+}
+
+.blog-header h1 {
+  font-size: 30px;
+  text-align: left;
+  margin: 0 0 10px;
+}
+
+.blog-header p {
+  font-size: 15.5px;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+.blog-list {
+  padding: 32px 0 72px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.blog-card {
+  display: block;
+  background: var(--surface2);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 24px 26px;
+  text-decoration: none;
+  transition: border-color 0.15s ease;
+}
+
+.blog-card:hover {
+  border-color: var(--line-strong);
+}
+
+.blog-card-date {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+
+.blog-card h2 {
+  font-size: 19px;
+  font-weight: 800;
+  color: var(--ink);
+  margin: 0 0 8px;
+}
+
+.blog-card p {
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+.blog-article-meta {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--accent);
+  margin: 0 0 8px;
+}
+
+.blog-article-body {
+  padding-bottom: 56px;
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--ink-soft);
+}
+
+.blog-article-body h2 {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--ink);
+  margin: 36px 0 12px;
+}
+
+.blog-article-body h2:first-child {
+  margin-top: 0;
+}
+
+.blog-article-body p {
+  margin: 0 0 16px;
+}
+
+.blog-article-body ul {
+  margin: 0 0 16px;
+  padding-left: 22px;
+}
+
+.blog-article-body li {
+  margin-bottom: 8px;
+}
+
+.blog-cta {
+  margin-top: 40px;
+  padding: 28px 26px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.blog-cta p {
+  margin: 0 0 16px;
+  color: var(--ink-soft);
+  font-size: 15px;
+}
+
 /* よくある質問（アコーディオン） */
 
 .faq {
