@@ -218,6 +218,55 @@ h1 .accent-word {
   margin: 0;
 }
 
+/* 実機スクリーンショットギャラリー */
+
+.showcase {
+  padding: 8px 0 64px;
+}
+
+.showcase-head {
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.showcase-head h2 {
+  font-size: 28px;
+  font-weight: 800;
+  margin: 0 0 10px;
+}
+
+.showcase-head p {
+  font-size: 15.5px;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+.showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 860px) {
+  .showcase-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .showcase-grid {
+    grid-template-columns: 1fr;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+}
+
+.showcase-grid img {
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid var(--line);
+}
+
 /* アプリ内ブラウザ向けの案内バナー（Instagram等のWebViewはApp Storeの
    itms-appss:への遷移に対応できないため、JSでUA検出して表示する） */
 
