@@ -304,6 +304,15 @@ h1 .accent-word {
   text-decoration: none;
   box-shadow: 0 0 32px var(--glow);
   transition: transform 0.15s ease;
+  white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+  .btn-store {
+    padding: 14px 20px;
+    font-size: 14.5px;
+    gap: 8px;
+  }
 }
 
 .btn-store:hover {
@@ -329,6 +338,12 @@ h1 .accent-word {
   border: 1px solid var(--line);
   border-radius: 24px;
   padding: 40px 32px;
+}
+
+@media (max-width: 480px) {
+  .notify-card {
+    padding: 32px 20px;
+  }
 }
 
 .notify h2 {
@@ -360,13 +375,15 @@ h1 .accent-word {
 
 .footer-links {
   display: flex;
-  gap: 20px;
+  flex-wrap: wrap;
+  gap: 10px 20px;
 }
 
 .footer-links a {
   color: var(--ink-faint);
   text-decoration: none;
   font-weight: 600;
+  white-space: nowrap;
 }
 
 .footer-links a:hover {
