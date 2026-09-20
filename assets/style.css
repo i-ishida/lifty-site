@@ -701,3 +701,32 @@ h1 .accent-word {
   opacity: 0.55;
   pointer-events: none;
 }
+
+.guide-shots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin: 8px 0 24px;
+}
+
+.guide-shot {
+  margin: 0;
+  width: 240px;
+  max-width: 100%;
+}
+
+.guide-shot img {
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line-strong);
+  border-radius: 24px;
+}
+
+.guide-shot figcaption {
+  margin-top: 8px;
+  font-size: 13px;
+  line-height: 1.6;
+  text-align: center;
+  color: var(--ink-faint);
+}
