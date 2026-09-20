@@ -667,3 +667,37 @@ h1 .accent-word {
 .faq-teaser-more a:hover {
   text-decoration: underline;
 }
+
+/* 機能ガイド */
+
+.blog-article-body ol {
+  margin: 0 0 16px;
+  padding-left: 24px;
+}
+
+.blog-article-body h3 {
+  font-size: 17px;
+  font-weight: 800;
+  color: var(--ink);
+  margin: 24px 0 8px;
+}
+
+.guide-note {
+  margin: 0 0 16px;
+  padding: 14px 18px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  border-radius: 12px;
+  font-size: 14.5px;
+  line-height: 1.8;
+}
+
+.guide-note p {
+  margin: 0;
+}
+
+.blog-card--soon {
+  opacity: 0.55;
+  pointer-events: none;
+}

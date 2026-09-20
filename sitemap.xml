@@ -111,4 +111,74 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/blog/warmup-sets.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/blog/warmup-sets.html" />
   </url>
+  <url>
+    <loc>https://liftyfit.com/guide/</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/guide/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/guide/" />
+  </url>
+  <url>
+    <loc>https://liftyfit.com/en/guide/</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/guide/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/guide/" />
+  </url>
+  <url>
+    <loc>https://liftyfit.com/guide/recording-basics.html</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/guide/recording-basics.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/guide/recording-basics.html" />
+  </url>
+  <url>
+    <loc>https://liftyfit.com/en/guide/recording-basics.html</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/guide/recording-basics.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/guide/recording-basics.html" />
+  </url>
+  <url>
+    <loc>https://liftyfit.com/guide/menus-exercises-locations.html</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/guide/menus-exercises-locations.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/guide/menus-exercises-locations.html" />
+  </url>
+  <url>
+    <loc>https://liftyfit.com/en/guide/menus-exercises-locations.html</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/guide/menus-exercises-locations.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/guide/menus-exercises-locations.html" />
+  </url>
+  <url>
+    <loc>https://liftyfit.com/guide/home-and-calendar.html</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/guide/home-and-calendar.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/guide/home-and-calendar.html" />
+  </url>
+  <url>
+    <loc>https://liftyfit.com/en/guide/home-and-calendar.html</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/guide/home-and-calendar.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/guide/home-and-calendar.html" />
+  </url>
+  <url>
+    <loc>https://liftyfit.com/guide/analysis.html</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/guide/analysis.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/guide/analysis.html" />
+  </url>
+  <url>
+    <loc>https://liftyfit.com/en/guide/analysis.html</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/guide/analysis.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/guide/analysis.html" />
+  </url>
+  <url>
+    <loc>https://liftyfit.com/guide/body-goals-health.html</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/guide/body-goals-health.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/guide/body-goals-health.html" />
+  </url>
+  <url>
+    <loc>https://liftyfit.com/en/guide/body-goals-health.html</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/guide/body-goals-health.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/guide/body-goals-health.html" />
+  </url>
+  <url>
+    <loc>https://liftyfit.com/guide/plans.html</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/guide/plans.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/guide/plans.html" />
+  </url>
+  <url>
+    <loc>https://liftyfit.com/en/guide/plans.html</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/guide/plans.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/guide/plans.html" />
+  </url>
 </urlset>
