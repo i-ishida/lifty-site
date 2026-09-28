@@ -79,11 +79,15 @@
     <p>Under Settings > Health sync you can connect to Apple Health (Health Connect on Android). Only data that exists on both platforms is supported.</p>
     <ul>
       <li><strong>Body stats</strong>: weight, body fat, and height sync in both directions. Values recorded by other apps and devices are imported into LiFTY, and values you record in LiFTY are written to Health.</li>
-      <li><strong>Cardio</strong>: workouts such as runs and walks in Health are imported as records of an exercise you choose in advance. Completed cardio sessions are written to Health.</li>
-      <li><strong>Strength</strong>: completed sessions are written to Health only (nothing is imported from Health).</li>
+      <li><strong>Cardio</strong>: workouts such as runs and walks in Health are imported as records of an exercise you choose in advance. When you finish a cardio session, LiFTY writes the time, distance, calories, and heart rate to Health (when recorded on iPhone alone).</li>
+      <li><strong>Strength</strong>: when you finish a session, LiFTY writes only the duration to Health (when recorded on iPhone alone; set details and calories aren't included, and nothing is imported from Health).</li>
     </ul>
     <p>The first sync also imports your past history. After that, only new data is synced when you open the app. Each time you turn a sync on, the operating system asks for permission.</p>
     <div class="guide-shots"><figure class="guide-shot"><img src="../../assets/guide/en/health-sync.png" alt="Health sync" loading="lazy" /><figcaption>Health sync</figcaption></figure></div>
+
+    <h3>A note on recording with Apple Watch</h3>
+    <p>When you record a workout in LiFTY while wearing your Apple Watch, the Watch itself saves the entire workout — including an estimated calorie value — directly to Health, regardless of the settings above. The iPhone-side settings only apply when you record on iPhone alone; they don't affect what the Watch records.</p>
+    <p>This calorie estimate comes from watchOS itself, not from LiFTY. Because it's based on heart rate and wrist motion, calorie estimates for strength training tend to be less accurate than for cardio. Treat this number as a rough guide.</p>
 
     <div class="blog-cta">
       <p>LiFTY is a workout log you can start using right away, with no account required.</p>
