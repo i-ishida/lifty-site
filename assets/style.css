@@ -730,3 +730,12 @@ h1 .accent-word {
   text-align: center;
   color: var(--ink-faint);
 }
+
+/* Apple Watchのスクリーンショット（縦長の通常スクショより小さく並べる） */
+.guide-shot--watch {
+  width: 200px;
+}
+
+.guide-shot--watch img {
+  border-radius: 28px;
+}
