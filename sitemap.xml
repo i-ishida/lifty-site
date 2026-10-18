@@ -253,16 +253,4 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/guide/plans.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/guide/plans.html" />
   </url>
-  <url>
-    <loc>https://liftyfit.com/guide/import.html</loc>
-    <lastmod>2026-10-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/guide/import.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/guide/import.html" />
-  </url>
-  <url>
-    <loc>https://liftyfit.com/en/guide/import.html</loc>
-    <lastmod>2026-10-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/guide/import.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/guide/import.html" />
-  </url>
 </urlset>
