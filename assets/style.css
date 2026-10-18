@@ -564,6 +564,9 @@ h1 .accent-word {
 
 .faq {
   margin: 8px 0 32px;
+  /* サポートページでは親の.doc-body（white-space: pre-line）を継承し、
+     Safariがタグ間の改行を空行として描画してしまうため打ち消す */
+  white-space: normal;
 }
 
 .faq-category {
