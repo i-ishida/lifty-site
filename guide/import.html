@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>CSVでデータをインポートする — LiFTY使い方ガイド</title>
+<meta name="description" content="他のアプリやLiFTYでエクスポートしたCSVから、記録をインポートする方法とCSVの書き方。" />
+<link rel="icon" href="../assets/logo.png" />
+<link rel="canonical" href="https://liftyfit.com/guide/import.html" />
+<link rel="alternate" hreflang="ja" href="https://liftyfit.com/guide/import.html" />
+<link rel="alternate" hreflang="en" href="https://liftyfit.com/en/guide/import.html" />
+<meta property="og:title" content="CSVでデータをインポートする — LiFTY使い方ガイド" />
+<meta property="og:description" content="他のアプリやLiFTYでエクスポートしたCSVから、記録をインポートする方法とCSVの書き方。" />
+<meta property="og:image" content="https://liftyfit.com/assets/logo.png" />
+<meta property="og:type" content="article" />
+<meta name="twitter:card" content="summary" />
+<link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container" style="display:flex; align-items:center; justify-content:space-between;">
+    <a class="brand" href="/">
+      <img src="../assets/logo.png" alt="" />
+      <span>LiFTY</span>
+    </a>
+    <a class="header-badge" href="https://apps.apple.com/jp/app/lifty-workout-log/id6796316767">App Storeで配信中</a>
+  </div>
+</header>
+
+<main class="container container--narrow">
+  <div class="doc-header">
+    <a class="doc-back" href="./">&larr; 使い方ガイドへ戻る</a>
+    <h1>CSVでデータをインポートする</h1>
+  </div>
+
+  <div class="blog-article-body">
+    <p>設定の「データ管理」から「データをインポート」を開くと、CSVファイルのトレーニング記録と体の記録をLiFTYに取り込めます。ほかのアプリの記録や、ノート・表計算ソフトで付けていた記録も、ここで説明する形式に整えればインポートできます。インポートは無料です。</p>
+
+    <h2>テンプレート</h2>
+    <ul>
+      <li><a href="../assets/import/simple_template_ja.csv" download>簡単な形式（日付・種目名・重量・回数・セット数）</a></li>
+      <li><a href="../assets/import/body_stats_template_ja.csv" download>体の記録</a></li>
+      <li><a href="../assets/import/lifty_example_ja.csv" download>LiFTYでエクスポートしたファイルの例（全ての列）</a></li>
+    </ul>
+
+    <h2>最低限必要な列</h2>
+    <p>トレーニング記録は「日付」「種目名」「重量」「回数」の4列があればインポートできます。ほかの列はすべて任意です。</p>
+    <pre class="doc-code">日付,種目名,重量,回数,セット数
+2026-10-14,ベンチプレス,60,10,3
+2026-10-14,ダンベルカール,12,10,3
+2026-10-16,スクワット,80,8,4</pre>
+    <ul>
+      <li>同じ日付の行は、1回のワークアウトにまとまります（開始時刻やセッションIDの列があれば、それで分けます）。</li>
+      <li>「セット数」に3と書くと、同じ重量・回数のセットを3つ作ります。1セットずつ1行で書いても構いません。</li>
+      <li>自重の種目は、重量を空にしてください。重量に「60kg」「135lbs」のように単位を付けても読めます。</li>
+      <li>1行目の見出しは日本語・英語のどちらでも構いません。列の順番も自由です。見出しが分からない列は、インポートの時に何の列かを選べます。</li>
+    </ul>
+
+    <h2>使える列</h2>
+    <table class="doc-table">
+      <thead><tr><th>列</th><th>内容・書き方</th></tr></thead>
+      <tbody>
+        <tr><td>日付</td><td>2026-10-14 または 2026/10/14</td></tr>
+        <tr><td>種目名</td><td>LiFTYの種目と名前が同じなら、自動で対応付けます</td></tr>
+        <tr><td>重量</td><td>数値。自重は空</td></tr>
+        <tr><td>回数</td><td>数値</td></tr>
+        <tr><td>セット数</td><td>同じ内容のセットをいくつ作るか（無ければ1）</td></tr>
+        <tr><td>セット番号</td><td>何セット目か（並べる順番に使います）</td></tr>
+        <tr><td>単位</td><td>kg または lbs（無ければ種目の単位）</td></tr>
+        <tr><td>左右</td><td>左 / 右（L / R）</td></tr>
+        <tr><td>RPE</td><td>7〜10</td></tr>
+        <tr><td>メモ</td><td>セットのメモ</td></tr>
+        <tr><td>場所</td><td>ジムなどの名前</td></tr>
+        <tr><td>開始時刻・完了時刻</td><td>19:02 のような時刻</td></tr>
+        <tr><td>時間(秒)・距離(m)・カロリー(kcal)・心拍数(bpm)</td><td>有酸素の記録</td></tr>
+        <tr><td>部位</td><td>胸・背中など（新しく登録する種目の部位に使います）</td></tr>
+        <tr><td>アップ</td><td>ウォームアップのセットなら 1</td></tr>
+        <tr><td>セッションメモ</td><td>ワークアウト全体のメモ</td></tr>
+        <tr><td>種目の種類</td><td>筋トレ / 有酸素</td></tr>
+      </tbody>
+    </table>
+    <p>LiFTYのエクスポートには、このほか「セッションID」「開始日時」「完了日時」などの列も含まれます。そのままインポートすれば、記録を元どおりに戻せます。</p>
+
+    <h2>体の記録</h2>
+    <pre class="doc-code">日付,項目名,値,単位
+2026-10-01,体重,72.4,kg
+2026-10-01,体脂肪率,18.2,%</pre>
+    <p>項目名は、身長・体重・体脂肪率・首・胸部・肩幅・ウエスト・臀部・上腕（左/右）・前腕（左/右）・太もも（左/右）・ふくらはぎ（左/右）です。</p>
+
+    <h2>インポートの流れ</h2>
+    <ol>
+      <li>「ファイルを選ぶ」でCSVを選びます（iPhoneの「ファイル」アプリにあるファイルを選べます）。</li>
+      <li>見出しが分からない列があれば、何の列かを選びます。</li>
+      <li>読み込み結果で、期間・件数・読めなかった行を確認します。</li>
+      <li>ファイルの種目を、LiFTYのどの種目として記録するか選びます。名前が同じ種目は自動で対応付けます。見つからない種目は、新しく登録できます。単位が違う場合は換算します。</li>
+      <li>ファイルに場所がある場合は、場所を選びます（無料プランの場所の上限は2件です）。</li>
+      <li>確認して「インポートする」を押します。</li>
+    </ol>
+
+    <h2>二重にならないように</h2>
+    <p>同じ日付・同じ開始時刻のワークアウト（体の記録は同じ日付・同じ項目）がすでにLiFTYにある場合は、インポートしません。同じファイルを2回インポートしても、記録は二重になりません。</p>
+
+    <h2>取り消し</h2>
+    <p>インポートした後でも、「前回のインポートを取り消す」で、インポートした記録と新しく登録した種目・場所をまとめて消せます。取り消せるのは直近1回分です。</p>
+
+    <h2>文字コード・保存のしかた</h2>
+    <p>UTF-8（BOMの有無どちらも）とShift_JISのCSVを読み込めます。表計算ソフトで作った場合は、「CSV」形式で保存してください。</p>
+
+    <div class="blog-cta">
+      <p>LiFTYは、アカウント作成なしですぐに記録を始められる筋トレ記録アプリです。</p>
+      <a class="btn-store" href="https://apps.apple.com/jp/app/lifty-workout-log/id6796316767">
+        <svg viewBox="0 0 24 24"><path d="M16.365 1.43c0 1.14-.463 2.08-1.244 2.83-.85.82-2.16 1.31-3.18 1.23-.145-1.09.41-2.24 1.19-2.98.85-.82 2.31-1.34 3.234-1.38.03.1.006.2 0 .3zm4.09 16.63c-.55 1.24-1.21 2.43-2.15 3.5-.86.98-1.86 2-3.2 2-1.28 0-1.68-.79-3.15-.79-1.48 0-1.94.77-3.15.82-1.28.05-2.42-1.09-3.29-2.06-2.02-2.24-3.57-6.33-1.5-9.1 1.03-1.37 2.52-2.17 4.12-2.19 1.42-.03 2.36.87 3.15.87.79 0 1.85-1.08 3.25-.99.55.02 2.6.22 3.83 1.68-.1.06-2.29 1.34-2.27 3.99.02 2.99 2.62 3.99 2.35 4.27z"/></svg>
+        <span>App Storeでダウンロード</span>
+      </a>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container" style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px; width:100%;">
+    <span>&copy; 2026 LiFTY</span>
+    <nav class="footer-links">
+      <a href="../privacy.html">プライバシーポリシー</a>
+      <a href="../terms.html">利用規約</a>
+      <a href="../support.html">サポート</a>
+      <a href="./">使い方ガイド</a>
+      <a href="../en/guide/import.html">English</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="/assets/campaign.js"></script>
+</body>
+</html>

@@ -742,3 +742,33 @@ h1 .accent-word {
 .guide-shot--watch img {
   border-radius: 28px;
 }
+
+/* ガイドの表・コード例（CSVインポートの説明） */
+.doc-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0 20px;
+  font-size: 14px;
+}
+
+.doc-table th,
+.doc-table td {
+  text-align: left;
+  vertical-align: top;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--line-strong);
+}
+
+.doc-table th {
+  color: var(--ink-faint);
+  font-weight: 700;
+}
+
+.doc-code {
+  overflow-x: auto;
+  padding: 12px 14px;
+  border: 1px solid var(--line-strong);
+  border-radius: 12px;
+  font-size: 13px;
+  line-height: 1.7;
+}
