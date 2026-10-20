@@ -218,6 +218,27 @@ h1 .accent-word {
   margin: 0;
 }
 
+.pillar p + p,
+.pillar-list + p {
+  margin-top: 12px;
+}
+
+.pillar-list {
+  margin: 12px 0 0;
+  padding-left: 20px;
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--ink-soft);
+}
+
+.pillar-list li + li {
+  margin-top: 6px;
+}
+
+.pillar-list strong {
+  color: var(--ink);
+}
+
 /* 実機スクリーンショットギャラリー */
 
 .showcase {
@@ -741,6 +762,11 @@ h1 .accent-word {
 
 .guide-shot--watch img {
   border-radius: 28px;
+}
+
+/* トップページで2枚並べる通常のスクリーンショット */
+.guide-shot--half {
+  width: 260px;
 }
 
 /* ガイドの表・コード例（CSVインポートの説明） */

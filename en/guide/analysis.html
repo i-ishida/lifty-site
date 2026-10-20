@@ -4,13 +4,13 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Using the Analysis Tab — LiFTY User Guide</title>
-<meta name="description" content="The differences between trend, body-part, and exercise analysis, and what is free or paid." />
+<meta name="description" content="What you can see in trend, body-part, and exercise analysis, how to read the sub-part x position table, and what is free or paid." />
 <link rel="icon" href="../../assets/logo.png" />
 <link rel="canonical" href="https://liftyfit.com/en/guide/analysis.html" />
 <link rel="alternate" hreflang="ja" href="https://liftyfit.com/guide/analysis.html" />
 <link rel="alternate" hreflang="en" href="https://liftyfit.com/en/guide/analysis.html" />
 <meta property="og:title" content="Using the Analysis Tab — LiFTY User Guide" />
-<meta property="og:description" content="The differences between trend, body-part, and exercise analysis, and what is free or paid." />
+<meta property="og:description" content="What you can see in trend, body-part, and exercise analysis, how to read the sub-part x position table, and what is free or paid." />
 <meta property="og:image" content="https://liftyfit.com/assets/logo.png" />
 <meta property="og:type" content="article" />
 <meta name="twitter:card" content="summary" />
@@ -50,22 +50,33 @@
     <h2>Body Part: one part in depth</h2>
     <p>Pick one body part to see its sets.</p>
     <ul>
-      <li>A summary: total sets, average sets per week, and average gap between sessions</li>
-      <li>Sets per exercise (tap one to open its exercise analysis)</li>
-      <li>Share of sub-groups and how sets change over time (an exercise that hits several sub-groups has each set split evenly among them)</li>
-      <li>Sets overlaid with body measurements for that part</li>
+      <li><strong>Summary</strong>: total sets, average sets per week, and average gap between sessions.</li>
+      <li><strong>Sets by exercise</strong>: which exercises trained this part. Tap one to open its exercise analysis.</li>
+      <li><strong>Sub-part x position</strong>: for chest, back, shoulders, biceps, triceps, and core, a table breaks your sets down by sub-part (such as upper chest or long head) and by position (stretch, mid-range, contract). The "Total" column and row also show percentages, and tapping a cell lists the exercises behind it. Sub-parts you haven't trained yet still appear as rows, so gaps are easy to spot. For parts without sub-parts (forearms, legs, calves, glutes), you see sets by position instead.</li>
+      <li><strong>Sets over time</strong>: stacked bars colored by position and by sub-part, by week or by month.</li>
+      <li><strong>Sets x body-part size</strong>: sets overlaid with the matching measurement from your body stats (chest, upper arm, thigh, and so on; shoulder width for shoulders). For upper arms, forearms, thighs, and calves you can switch between left, right, and average.</li>
     </ul>
+    <p>An exercise set to several sub-parts has each set split evenly among them (for example, a curl set to both the long and short head of the biceps counts 0.5 sets for each), so the breakdown always adds up to the total.</p>
+
+    <h2>What is position (stretch, mid-range, contract)?</h2>
+    <p>For each exercise, you can set where in the range of motion the load on the muscle peaks ("Position (optional)" on the add/edit exercise screen).</p>
+    <ul>
+      <li><strong>Stretch</strong>: the load peaks with the muscle lengthened (e.g. dumbbell flyes, Romanian deadlifts)</li>
+      <li><strong>Mid-range</strong>: the load peaks in the middle of the range (e.g. pressing movements such as the bench press)</li>
+      <li><strong>Contract</strong>: the load peaks with the muscle shortened (e.g. cable crossovers, leg extensions)</li>
+    </ul>
+    <p>Seeing how your sets lean across positions can help you rethink exercise choice for a body part. Built-in exercises come with a typical position already set, which you can change or clear. Exercises without one are counted as "Not set," and you can open their edit screen right from body part analysis. For the idea behind it, see <a href="../blog/position-of-flexion.html">What Are Stretch Exercises? Rethinking Your Training with Position of Flexion</a>.</p>
     <div class="guide-shots"><figure class="guide-shot"><img src="../../assets/guide/en/analysis-parts.png" alt="Body parts" loading="lazy" /><figcaption>Body parts</figcaption></figure></div>
 
     <h2>By Exercise: one exercise in depth</h2>
     <p>After choosing an exercise, pick up to two of these measures to overlay on one chart:</p>
     <ol>
-      <li><strong>1RM</strong>: estimated with the Epley formula. You can switch to "actual 1RM only," which uses just single-rep weights.</li>
+      <li><strong>1RM</strong>: estimated with the Epley formula (<a href="../blog/estimated-1rm.html">What is estimated 1RM?</a>). You can switch to "actual 1RM only," which uses just single-rep weights.</li>
       <li><strong>1RM to bodyweight ratio</strong>: estimated 1RM divided by body weight.</li>
       <li><strong>Reps at a weight</strong>: the most reps you hit at a chosen weight.</li>
       <li><strong>Volume</strong>: weight x reps x sets.</li>
       <li><strong>Sets</strong></li>
-      <li><strong>Body-part size</strong>: the matching measurement from your body stats.</li>
+      <li><strong>Body-part size</strong>: the matching measurement from your body stats (chest, upper arm, thigh, and so on; shoulder width for shoulders).</li>
       <li><strong>Body weight</strong></li>
     </ol>
     <p>Cumulative amounts such as volume and sets are drawn as bars, and point-in-time values such as 1RM as lines. Tap or long-press the chart to read exact values, and scroll sideways when there are many points.</p>
@@ -73,11 +84,11 @@
     <div class="guide-shots"><figure class="guide-shot"><img src="../../assets/guide/en/analysis-exercise-free.png" alt="Exercise analysis (some options are locked on the free plan)" loading="lazy" /><figcaption>Exercise analysis (some options are locked on the free plan)</figcaption></figure></div>
 
     <h2>How sets are counted</h2>
-    <p>Warm-up sets are not counted as sets. The same rule applies to Home's body-part condition and to goals based on sets.</p>
+    <p>Warm-up sets are not counted as sets. The same rule applies to Home's body-part condition and to goals based on sets. Estimated 1RM and volume use all sets, including warm-ups.</p>
 
     <h2>What is free and what is paid</h2>
     <ul>
-      <li><strong>Free</strong>: periods up to 3 months, one measure at a time in exercise analysis, and only "All" in the trends body-part filter.</li>
+      <li><strong>Free</strong>: periods up to 3 months, one measure at a time in exercise analysis, and only "All" in the trends body-part filter. Body part analysis lets you switch parts and use every card for free.</li>
       <li><strong>Paid</strong>: 6 months, 1 year, all time, custom ranges, overlaying two measures, PR history, left/right difference, and filtering trends by body part.</li>
     </ul>
     <p>Paid options are still shown with a lock icon, and tapping one explains the plan. In the Analysis tab only, you can also watch an ad to unlock the paid features for 24 hours (once every 30 days).</p>

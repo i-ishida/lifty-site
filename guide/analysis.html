@@ -4,13 +4,13 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>分析タブの使い方 — LiFTY使い方ガイド</title>
-<meta name="description" content="傾向分析・部位分析・種目分析の違いと、無料/有料の範囲。" />
+<meta name="description" content="傾向分析・部位分析・種目分析で見られること、細分類×ポジションの見方、無料/有料の範囲。" />
 <link rel="icon" href="../assets/logo.png" />
 <link rel="canonical" href="https://liftyfit.com/guide/analysis.html" />
 <link rel="alternate" hreflang="ja" href="https://liftyfit.com/guide/analysis.html" />
 <link rel="alternate" hreflang="en" href="https://liftyfit.com/en/guide/analysis.html" />
 <meta property="og:title" content="分析タブの使い方 — LiFTY使い方ガイド" />
-<meta property="og:description" content="傾向分析・部位分析・種目分析の違いと、無料/有料の範囲。" />
+<meta property="og:description" content="傾向分析・部位分析・種目分析で見られること、細分類×ポジションの見方、無料/有料の範囲。" />
 <meta property="og:image" content="https://liftyfit.com/assets/logo.png" />
 <meta property="og:type" content="article" />
 <meta name="twitter:card" content="summary" />
@@ -50,22 +50,33 @@
     <h2>部位分析：1つの部位を深く見る</h2>
     <p>部位を1つ選んで、その部位のセット数を見ます。</p>
     <ul>
-      <li>合計セット・週平均セット・平均実施間隔の要約</li>
-      <li>種目別のセット数（タップすると、その種目の種目分析が開きます）</li>
-      <li>細分類の割合とセット数の推移（複数の細分類にまたがる種目は、セットを均等に按分します）</li>
-      <li>セット数と部位サイズ（体の記録）を重ねたグラフ</li>
+      <li><strong>要約</strong>：合計セット・週平均セット・平均実施間隔。</li>
+      <li><strong>種目別セット数</strong>：その部位をどの種目で鍛えたか。種目をタップすると、その種目の種目分析が開きます。</li>
+      <li><strong>細分類×ポジション</strong>：胸・背中・肩・二頭筋・三頭筋・体幹では、細分類（胸上部・長頭など）とポジション（ストレッチ／ミッド／コントラクト）の表で、セット数の内訳を見られます。右端・下端の「合計」には割合も表示され、セルをタップするとその組み合わせの種目が分かります。まだ鍛えていない細分類も行として表示されるので、抜けている部分に気づけます。細分類の無い部位（前腕・脚・ふくらはぎ・臀筋）では、ポジション別のセット数を表示します。</li>
+      <li><strong>セット数の推移</strong>：ポジション別・細分類別に色分けした積み上げ棒グラフで、週単位または月単位の変化を見られます。</li>
+      <li><strong>セット数×部位サイズ</strong>：セット数と、体の記録の部位のサイズ（胸部・上腕・太ももなど、肩は肩幅）を重ねたグラフです。上腕・前腕・太もも・ふくらはぎは、左／右／平均を切り替えられます。</li>
     </ul>
+    <p>複数の細分類にまたがる種目は、1セットを細分類の数で均等に按分して数えます（例：二頭筋の長頭・短頭の両方を設定したカールは、それぞれ0.5セット）。そのため、合計と内訳が一致します。</p>
+
+    <h2>ポジション（ストレッチ／ミッド／コントラクト）とは</h2>
+    <p>種目ごとに、筋肉のどの位置で負荷がいちばん大きくなるかを設定できる項目です（種目の登録・編集画面の「ポジション（任意）」）。</p>
+    <ul>
+      <li><strong>ストレッチ</strong>：筋肉が伸びた位置で負荷が最大（例：ダンベルフライ、ルーマニアンデッドリフト）</li>
+      <li><strong>ミッド</strong>：可動域の中間で負荷が最大（例：ベンチプレスなどのプレス系）</li>
+      <li><strong>コントラクト</strong>：筋肉が縮んだ位置で負荷が最大（例：ケーブルクロスオーバー、レッグエクステンション）</li>
+    </ul>
+    <p>同じ部位でも、ポジションの偏りが分かると種目選びの見直しに役立ちます。最初から入っている種目には一般的な目安のポジションが設定済みで、自分で変更・解除もできます。設定していない種目は「未設定」として数えられ、部位分析の画面から種目の編集画面を開いて設定できます。考え方は<a href="../blog/position-of-flexion.html">ストレッチ種目とは？ポジション（POF法）で部位の鍛え方を見直す</a>でも解説しています。</p>
     <div class="guide-shots"><figure class="guide-shot"><img src="../assets/guide/ja/analysis-parts.png" alt="部位分析" loading="lazy" /><figcaption>部位分析</figcaption></figure></div>
 
     <h2>種目分析：1つの種目を深く見る</h2>
     <p>種目を選ぶと、次の項目から最大2つまで選んで、1つのグラフに重ねられます。</p>
     <ol>
-      <li><strong>1RM</strong>：Epley式による推定値。「実測1RMのみ」に切り替えて、1回のセットの重量だけを使うこともできます。</li>
+      <li><strong>1RM</strong>：Epley式による推定値（<a href="../blog/estimated-1rm.html">推定1RMとは？</a>）。「実測1RMのみ」に切り替えて、1回のセットの重量だけを使うこともできます。</li>
       <li><strong>1RMの体重比</strong>：推定1RMを体重で割った値。</li>
       <li><strong>重量別RM</strong>：選んだ重量で挙げられた最大回数。</li>
       <li><strong>ボリューム</strong>：重量×回数×セット数。</li>
       <li><strong>セット数</strong></li>
-      <li><strong>部位サイズ</strong>：体の記録の、対応する部位の周径。</li>
+      <li><strong>部位サイズ</strong>：体の記録の、対応する部位のサイズ（胸部・上腕・太ももなど、肩は肩幅）。</li>
       <li><strong>体重</strong></li>
     </ol>
     <p>ボリュームやセット数のように積み上げる量は棒グラフ、1RMのようにその時点の値を表す量は折れ線で表示されます。グラフはタップや長押しで具体的な値を確認でき、多い時は横にスクロールできます。</p>
@@ -73,11 +84,11 @@
     <div class="guide-shots"><figure class="guide-shot"><img src="../assets/guide/ja/analysis-exercise-free.png" alt="種目分析（無料プランでは鍵付きの項目があります）" loading="lazy" /><figcaption>種目分析（無料プランでは鍵付きの項目があります）</figcaption></figure></div>
 
     <h2>セット数の数え方</h2>
-    <p>ウォームアップのセットは、セット数に含めません。ホームの部位別コンディションや、目標のセット数も同じ基準です。</p>
+    <p>ウォームアップのセットは、セット数に含めません。ホームの部位別コンディションや、目標のセット数も同じ基準です。推定1RMとボリュームは、ウォームアップも含めたすべてのセットが対象です。</p>
 
     <h2>無料と有料の範囲</h2>
     <ul>
-      <li><strong>無料</strong>：期間は3ヶ月まで。種目分析の項目は1つまで。傾向分析の部位絞り込みは「すべて」のみ。</li>
+      <li><strong>無料</strong>：期間は3ヶ月まで。種目分析の項目は1つまで。傾向分析の部位絞り込みは「すべて」のみ。部位分析は、部位の切り替えと各カードを無料で使えます。</li>
       <li><strong>有料</strong>：6ヶ月・1年・全期間・カスタム期間、2つの項目の重ね合わせ、PR履歴、左右差の推移、傾向分析の部位絞り込み。</li>
     </ul>
     <p>有料の項目もチップは表示され、タップすると案内が出ます。分析タブに限り、広告を見ることで24時間だけ有料機能を使うこともできます（30日に1回まで）。</p>

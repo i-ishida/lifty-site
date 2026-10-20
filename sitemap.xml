@@ -3,13 +3,13 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://liftyfit.com/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/" />
   </url>
   <url>
     <loc>https://liftyfit.com/en/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/" />
   </url>
@@ -51,15 +51,39 @@
   </url>
   <url>
     <loc>https://liftyfit.com/blog/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/blog/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/blog/" />
   </url>
   <url>
     <loc>https://liftyfit.com/en/blog/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/blog/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/blog/" />
+  </url>
+  <url>
+    <loc>https://liftyfit.com/blog/estimated-1rm.html</loc>
+    <lastmod>2026-10-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/blog/estimated-1rm.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/blog/estimated-1rm.html" />
+  </url>
+  <url>
+    <loc>https://liftyfit.com/en/blog/estimated-1rm.html</loc>
+    <lastmod>2026-10-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/blog/estimated-1rm.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/blog/estimated-1rm.html" />
+  </url>
+  <url>
+    <loc>https://liftyfit.com/blog/position-of-flexion.html</loc>
+    <lastmod>2026-10-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/blog/position-of-flexion.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/blog/position-of-flexion.html" />
+  </url>
+  <url>
+    <loc>https://liftyfit.com/en/blog/position-of-flexion.html</loc>
+    <lastmod>2026-10-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/blog/position-of-flexion.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/blog/position-of-flexion.html" />
   </url>
   <url>
     <loc>https://liftyfit.com/blog/multi-gym-tracking.html</loc>
@@ -87,37 +111,37 @@
   </url>
   <url>
     <loc>https://liftyfit.com/blog/training-volume.html</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/blog/training-volume.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/blog/training-volume.html" />
   </url>
   <url>
     <loc>https://liftyfit.com/en/blog/training-volume.html</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/blog/training-volume.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/blog/training-volume.html" />
   </url>
   <url>
     <loc>https://liftyfit.com/blog/left-right-imbalance.html</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/blog/left-right-imbalance.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/blog/left-right-imbalance.html" />
   </url>
   <url>
     <loc>https://liftyfit.com/en/blog/left-right-imbalance.html</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/blog/left-right-imbalance.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/blog/left-right-imbalance.html" />
   </url>
   <url>
     <loc>https://liftyfit.com/blog/progressive-overload.html</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/blog/progressive-overload.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/blog/progressive-overload.html" />
   </url>
   <url>
     <loc>https://liftyfit.com/en/blog/progressive-overload.html</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/blog/progressive-overload.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/blog/progressive-overload.html" />
   </url>
@@ -147,13 +171,13 @@
   </url>
   <url>
     <loc>https://liftyfit.com/blog/warmup-sets.html</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/blog/warmup-sets.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/blog/warmup-sets.html" />
   </url>
   <url>
     <loc>https://liftyfit.com/en/blog/warmup-sets.html</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/blog/warmup-sets.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/blog/warmup-sets.html" />
   </url>
@@ -183,13 +207,13 @@
   </url>
   <url>
     <loc>https://liftyfit.com/guide/menus-exercises-locations.html</loc>
-    <lastmod>2026-09-20</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/guide/menus-exercises-locations.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/guide/menus-exercises-locations.html" />
   </url>
   <url>
     <loc>https://liftyfit.com/en/guide/menus-exercises-locations.html</loc>
-    <lastmod>2026-09-20</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/guide/menus-exercises-locations.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/guide/menus-exercises-locations.html" />
   </url>
@@ -207,13 +231,13 @@
   </url>
   <url>
     <loc>https://liftyfit.com/guide/analysis.html</loc>
-    <lastmod>2026-09-20</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/guide/analysis.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/guide/analysis.html" />
   </url>
   <url>
     <loc>https://liftyfit.com/en/guide/analysis.html</loc>
-    <lastmod>2026-09-20</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/guide/analysis.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/guide/analysis.html" />
   </url>
