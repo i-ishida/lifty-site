@@ -90,13 +90,20 @@
 
     <h2>How the import works</h2>
     <ol>
-      <li>Tap "Choose File" and pick a CSV (any file in the iPhone's Files app).</li>
+      <li>Tap "Choose File" and pick a CSV (any file in the iPhone's Files app). You can also choose LiFTY from the share menu in the Files app or other apps to start the import directly.</li>
       <li>If some headings aren't recognized, choose what each column is.</li>
-      <li>Check the period, counts, and any rows that couldn't be read.</li>
+      <li>Check the period, counts, and any rows that won't be imported.</li>
       <li>Choose which LiFTY exercise each exercise in the file should be recorded as. Exercises with the same name are matched automatically; ones that aren't found can be added as new. Different units are converted.</li>
       <li>If the file has locations, choose them (the free plan allows up to 2 locations).</li>
       <li>Review and tap "Import".</li>
     </ol>
+
+    <h2>Rows that aren't imported, and limits</h2>
+    <ul>
+      <li>Rows dated after today and rows with impossible values (such as a negative weight, an RPE above 10, or body fat above 80%) aren't imported. The import results show their row numbers, so fix the file and import it again.</li>
+      <li>Files can be up to 20 MB, and one import can include up to 50,000 sets (50,000 body records). If a file is larger, split off the part from the date shown and import it separately.</li>
+      <li>Left/right follows the "Track Left/Right Separately" setting of the LiFTY exercise you match to. For exercises tracked separately, sets with no side are recorded as done the same way on both sides.</li>
+    </ul>
 
     <h2>No duplicates</h2>
     <p>Workouts with the same date and start time (or body records with the same date and item) that are already in LiFTY aren't imported. Importing the same file twice won't duplicate your records.</p>
