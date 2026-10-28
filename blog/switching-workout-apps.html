@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>筋トレ記録アプリを乗り換えるとき、過去の記録を引き継ぐ方法 — LiFTYブログ</title>
+<meta name="description" content="筋トレ記録アプリを乗り換える際に、これまでの記録をCSVで引き継ぐ方法を解説します。書き出し前の確認ポイントと、取り込み時に気を付けたい単位・種目名・重複の扱いを紹介します。" />
+<link rel="icon" href="../assets/logo.png" />
+<link rel="canonical" href="https://liftyfit.com/blog/switching-workout-apps.html" />
+<link rel="alternate" hreflang="ja" href="https://liftyfit.com/blog/switching-workout-apps.html" />
+<link rel="alternate" hreflang="en" href="https://liftyfit.com/en/blog/switching-workout-apps.html" />
+<meta property="og:title" content="筋トレ記録アプリを乗り換えるとき、過去の記録を引き継ぐ方法" />
+<meta property="og:description" content="筋トレ記録アプリを乗り換える際に、これまでの記録をCSVで引き継ぐ方法を解説します。" />
+<meta property="og:image" content="https://liftyfit.com/assets/logo.png" />
+<meta property="og:type" content="article" />
+<meta name="twitter:card" content="summary" />
+<link rel="stylesheet" href="../assets/style.css" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"筋トレ記録アプリを乗り換えるとき、過去の記録を引き継ぐ方法","description":"筋トレ記録アプリを乗り換える際に、これまでの記録をCSVで引き継ぐ方法を解説します。","image":"https://liftyfit.com/assets/logo.png","author":{"@type":"Person","name":"石田一平"},"publisher":{"@type":"Organization","name":"LiFTY","logo":{"@type":"ImageObject","url":"https://liftyfit.com/assets/logo.png"}},"datePublished":"2026-10-27"}
+</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container" style="display:flex; align-items:center; justify-content:space-between;">
+    <a class="brand" href="/">
+      <img src="../assets/logo.png" alt="" />
+      <span>LiFTY</span>
+    </a>
+    <a class="header-badge" href="https://apps.apple.com/jp/app/lifty-workout-log/id6796316767">App Storeで配信中</a>
+  </div>
+</header>
+
+<main class="container container--narrow">
+  <div class="doc-header">
+    <a class="doc-back" href="./">&larr; ブログ一覧へ戻る</a>
+    <h1>筋トレ記録アプリを乗り換えるとき、過去の記録を引き継ぐ方法</h1>
+  </div>
+
+  <div class="blog-article-meta">2026年10月27日</div>
+
+  <div class="blog-article-body">
+    <p>今の記録アプリに不満があっても、乗り換えをためらう一番の理由は「これまでの記録が無くなること」ではないでしょうか。何ヶ月・何年分もの重量の推移や自己ベストは、トレーニングを続けるうえでの大切な財産です。多くの記録アプリにはデータをCSVファイルで書き出す機能があり、これを使えば過去の記録ごと新しいアプリへ移せます。</p>
+
+    <h2>CSVとは</h2>
+    <p>CSVは、表のデータを「,（カンマ）」で区切った文字だけのファイルです。1行目が見出し、2行目以降が1セットずつの記録、という形が一般的で、Excelやスプレッドシートでも開けます。アプリ同士で直接の互換性が無くても、CSVを介せばデータを受け渡せます。</p>
+
+    <h2>書き出す前に確認しておきたいこと</h2>
+    <ul>
+      <li><strong>アプリの書き出し機能の場所</strong>：設定画面やデータ管理のメニューにあることが多いです。有料プラン限定のアプリもあります</li>
+      <li><strong>最低限そろっていてほしい項目</strong>：日付・種目名・重量・回数の4つがあれば、記録の推移はおおむね再現できます</li>
+      <li><strong>重量の単位</strong>：kgとlbsのどちらで書き出されるかを確認しておきます。単位を取り違えると、重量が約2.2倍ずれてしまいます</li>
+      <li><strong>体重などの記録</strong>：トレーニングとは別のファイルになっている場合があります</li>
+    </ul>
+
+    <h2>取り込むときに気を付けたいこと</h2>
+    <ul>
+      <li><strong>種目名の対応</strong>：前のアプリの「Bench Press (Barbell)」と新しいアプリの「ベンチプレス」のように、同じ種目でも名前が違うことがよくあります。取り込む前に、どの種目として記録するかを対応付けておくと、取り込み後の推移グラフがきれいにつながります</li>
+      <li><strong>重複</strong>：途中まで両方のアプリで記録していた場合、同じワークアウトが二重に入らないかを確認します</li>
+      <li><strong>おかしな値</strong>：入力ミスで残っていた極端な重量や未来の日付は、取り込む前に見つけて直しておくと安心です</li>
+      <li><strong>まずは少量で試す</strong>：いきなり全件ではなく、取り込んだ結果を確認し、問題があれば取り消せる方法だと安心です</li>
+    </ul>
+
+    <h2>乗り換えた後に確認すること</h2>
+    <p>取り込みが終わったら、よくやる種目の推移グラフや自己ベストが前のアプリと一致しているかを、いくつか見比べておきましょう。ずれがあれば、単位や種目の対応付けの違いが原因であることが多いです。過去の記録がそろえば、新しいアプリでもこれまでの続きからトレーニングを積み上げられます。</p>
+
+    <p>LiFTYでは、設定 &gt; データ管理 の「データをインポート」から、CSVファイルのトレーニング記録と体の記録を無料で取り込めます。ファイルアプリなどの共有メニューで「LiFTY」を選んでも始められます。見出しが分からない列は自分で選べ、種目の対応付け、単位の換算、重複の除外、直前のインポートの取り消しにも対応しています（<a href="../guide/import.html">CSVでデータをインポートする</a>）。</p>
+
+    <h2 id="related-articles">関連記事</h2>
+    <ul>
+      <li><a href="multi-gym-tracking.html">複数のジムを使い分けている人へ：重量記録を分けて管理する方法</a></li>
+      <li><a href="estimated-1rm.html">推定1RMとは？計算方法（Epley式）と記録の伸びを比べる使い方</a></li>
+      <li><a href="progressive-overload.html">漸進性過負荷とは？筋トレで記録を伸ばし続けるための基本原則</a></li>
+    </ul>
+
+    <div class="blog-cta">
+      <p>LiFTYは、ほかのアプリから書き出したCSVを無料でインポートでき、これまでの記録の続きから使い始められます。アカウント作成なしで、今すぐ試せます。</p>
+      <a class="btn-store" href="https://apps.apple.com/jp/app/lifty-workout-log/id6796316767">
+        <svg viewBox="0 0 24 24"><path d="M16.365 1.43c0 1.14-.463 2.08-1.244 2.83-.85.82-2.16 1.31-3.18 1.23-.145-1.09.41-2.24 1.19-2.98.85-.82 2.31-1.34 3.234-1.38.03.1.006.2 0 .3zm4.09 16.63c-.55 1.24-1.21 2.43-2.15 3.5-.86.98-1.86 2-3.2 2-1.28 0-1.68-.79-3.15-.79-1.48 0-1.94.77-3.15.82-1.28.05-2.42-1.09-3.29-2.06-2.02-2.24-3.57-6.33-1.5-9.1 1.03-1.37 2.52-2.17 4.12-2.19 1.42-.03 2.36.87 3.15.87.79 0 1.85-1.08 3.25-.99.55.02 2.6.22 3.83 1.68-.1.06-2.29 1.34-2.27 3.99.02 2.99 2.62 3.99 2.35 4.27z"/></svg>
+        <span>App Storeでダウンロード</span>
+      </a>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container" style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px; width:100%;">
+    <span>&copy; 2026 LiFTY</span>
+    <nav class="footer-links">
+      <a href="../privacy.html">プライバシーポリシー</a>
+      <a href="../terms.html">利用規約</a>
+      <a href="../support.html">サポート</a>
+      <a href="./">ブログ</a>
+      <a href="../en/blog/switching-workout-apps.html">English</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="/assets/campaign.js"></script>
+</body>
+</html>

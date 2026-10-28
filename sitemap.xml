@@ -51,13 +51,13 @@
   </url>
   <url>
     <loc>https://liftyfit.com/blog/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/blog/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/blog/" />
   </url>
   <url>
     <loc>https://liftyfit.com/en/blog/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/blog/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/blog/" />
   </url>
@@ -288,5 +288,53 @@
     <lastmod>2026-10-26</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/guide/import.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/guide/import.html" />
+  </url>
+  <url>
+    <loc>https://liftyfit.com/blog/rest-between-sets.html</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/blog/rest-between-sets.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/blog/rest-between-sets.html" />
+  </url>
+  <url>
+    <loc>https://liftyfit.com/en/blog/rest-between-sets.html</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/blog/rest-between-sets.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/blog/rest-between-sets.html" />
+  </url>
+  <url>
+    <loc>https://liftyfit.com/blog/switching-workout-apps.html</loc>
+    <lastmod>2026-10-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/blog/switching-workout-apps.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/blog/switching-workout-apps.html" />
+  </url>
+  <url>
+    <loc>https://liftyfit.com/en/blog/switching-workout-apps.html</loc>
+    <lastmod>2026-10-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/blog/switching-workout-apps.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/blog/switching-workout-apps.html" />
+  </url>
+  <url>
+    <loc>https://liftyfit.com/blog/weekly-sets-per-muscle.html</loc>
+    <lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/blog/weekly-sets-per-muscle.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/blog/weekly-sets-per-muscle.html" />
+  </url>
+  <url>
+    <loc>https://liftyfit.com/en/blog/weekly-sets-per-muscle.html</loc>
+    <lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/blog/weekly-sets-per-muscle.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/blog/weekly-sets-per-muscle.html" />
+  </url>
+  <url>
+    <loc>https://liftyfit.com/blog/body-measurements.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/blog/body-measurements.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/blog/body-measurements.html" />
+  </url>
+  <url>
+    <loc>https://liftyfit.com/en/blog/body-measurements.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/blog/body-measurements.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/blog/body-measurements.html" />
   </url>
 </urlset>
