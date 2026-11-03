@@ -81,13 +81,17 @@ img {
   width: 30px;
   height: 30px;
   border-radius: 8px;
+  box-shadow: 0 0 12px var(--glow);
 }
 
+/* アプリのLiftyBrandmarkと同じワードマーク（太字イタリック・アクセント色・グロー） */
 .brand span {
   font-size: 19px;
   font-weight: 800;
+  font-style: italic;
   letter-spacing: 0.2px;
-  color: var(--ink);
+  color: var(--accent);
+  text-shadow: 0 0 16px var(--glow);
 }
 
 .header-badge {
