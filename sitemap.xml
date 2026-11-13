@@ -337,4 +337,16 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/blog/body-measurements.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/blog/body-measurements.html" />
   </url>
+  <url>
+    <loc>https://liftyfit.com/blog/superset-drop-set.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/blog/superset-drop-set.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/blog/superset-drop-set.html" />
+  </url>
+  <url>
+    <loc>https://liftyfit.com/en/blog/superset-drop-set.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liftyfit.com/blog/superset-drop-set.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://liftyfit.com/en/blog/superset-drop-set.html" />
+  </url>
 </urlset>
